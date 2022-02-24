@@ -1,6 +1,6 @@
 {
     "name": "chupsha",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "The library includes basic repeated usage functions.",
     "main": "index.js",
     "scripts": {
@@ -12,5 +12,13 @@
         "functions"
     ],
     "author": "Allauddin Yousafxai",
-    "license": "ISC"
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sprinkle7/utils.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Sprinkle7/utils/issues"
+    },
+    "homepage": "https://github.com/Sprinkle7/utils#readme"
 }
