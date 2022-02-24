@@ -1,0 +1,16 @@
+{
+    "name": "chupsha",
+    "version": "1.0.0",
+    "description": "The library includes basic repeated usage functions.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "utilities",
+        "basic",
+        "functions"
+    ],
+    "author": "Allauddin Yousafxai",
+    "license": "ISC"
+}
