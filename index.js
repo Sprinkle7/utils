@@ -5,6 +5,10 @@ module.exports = {
         }
         return array.filter(unique);
     },
+    removeItem: (array, index) => { 
+        array.splice(index,1);
+        return array;
+    },
     sum: (array) => array.reduce((partialSum, a) => partialSum + a, 0),
     sortArrayByString: (array, pointer, by) => {
         if (by) {
