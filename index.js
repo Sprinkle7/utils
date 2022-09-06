@@ -25,6 +25,9 @@ module.exports = {
             return array.sort((a, b) => parseFloat(b[pointer]) - parseFloat(a[pointer]));
         }
     },
+    exists: (array, [pointer, value]) => {
+        return array.some(el => el[pointer] === value);
+    },
     minValue: (array) => {
         var data = array.sort(function(a, b) { return a - b });
         return data[0];
