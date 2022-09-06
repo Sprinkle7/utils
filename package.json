@@ -1,6 +1,6 @@
 {
     "name": "chupsha",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "The library includes basic repeated usage functions.",
     "main": "index.js",
     "scripts": {
